@@ -15,7 +15,7 @@
 node > 14.18+ || 16+
 npm > 7
 ```
-多屏幕适配使用`postcss-px-to-viewport-8-plugin`. 
+多屏幕适配使用`postcss-px-to-viewport-8-plugin`  
 `pinia`持久化存储插件`pinia-plugin-persistedstate`
 
 ## 🌍浏览器兼容

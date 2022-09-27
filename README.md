@@ -7,16 +7,22 @@
  * 
  * Copyright (c) 2022 by 余笙学长 kingsun997@163.com, All Rights Reserved. 
 -->
+# vue3-element-ts
 
 使用`vue3` + `vite3` + `ts` + `Pinia` + `Element-Plus`编写    
-包管理工具统一使用`pnpm`
+包管理工具统一使用`pnpm`  
+多屏幕适配使用`postcss-px-to-viewport-8-plugin`  
+`pinia`持久化存储插件`pinia-plugin-persistedstate`  
+
+## 为什么要基于Element-plus进行封装？  
+不是`element-plus`提供的组件不够优秀，而是在实际开发过程中，将一些组件尽可能的精简化，以提升开发效率和开发体验  
+
+## 
 ## 🚗运行环境
 ```
 node > 14.18+ || 16+
 npm > 7
 ```
-多屏幕适配使用`postcss-px-to-viewport-8-plugin`  
-`pinia`持久化存储插件`pinia-plugin-persistedstate`
 
 ## 🌍浏览器兼容
 | 浏览器 | 最低版本 |
@@ -31,23 +37,23 @@ npm > 7
 ## Project Setup
 
 ```sh
-npm install
+pnpm install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-npm run build
+pnpm run build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+pnpm run lint
 ```
